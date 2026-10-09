@@ -64,7 +64,6 @@ Browser → Streamlit (public, on $PORT)
 ```
 Dockerfile              single image: Streamlit + FastAPI + Redis
 docker-compose.yml      local testing only
-render.yaml             optional Render Blueprint
 requirements.txt
 .env.example            template for your settings
 
@@ -82,8 +81,6 @@ backend/app/
   agents/roles.py       the eight agents
   workflow/orchestrator.py   runs the workflow and the correction loop
 
-tests/
-  test_guardrails.py
 ```
 
 ---
