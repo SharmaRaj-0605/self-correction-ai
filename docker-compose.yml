@@ -1,0 +1,10 @@
+
+services:
+  app:
+    build: .
+    env_file:
+      - .env
+    environment:
+      PORT: "10000"
+    ports:
+      - "8501:10000"
